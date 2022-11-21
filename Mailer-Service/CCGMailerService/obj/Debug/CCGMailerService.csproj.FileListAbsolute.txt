@@ -1,0 +1,78 @@
+C:\Users\Siphokuhle Khanyile\Desktop\CCGMailerService\CCGMailerService\bin\Debug\CCGMailerService.exe.config
+C:\Users\Siphokuhle Khanyile\Desktop\CCGMailerService\CCGMailerService\bin\Debug\CCGMailerService.exe
+C:\Users\Siphokuhle Khanyile\Desktop\CCGMailerService\CCGMailerService\bin\Debug\CCGMailerService.pdb
+C:\Users\Siphokuhle Khanyile\Desktop\CCGMailerService\CCGMailerService\bin\Debug\EntityFramework.dll
+C:\Users\Siphokuhle Khanyile\Desktop\CCGMailerService\CCGMailerService\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Siphokuhle Khanyile\Desktop\CCGMailerService\CCGMailerService\bin\Debug\EntityFramework.xml
+C:\Users\Siphokuhle Khanyile\Desktop\CCGMailerService\CCGMailerService\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Siphokuhle Khanyile\Desktop\CCGMailerService\CCGMailerService\obj\Debug\CCGMailerService.csproj.CoreCompileInputs.cache
+C:\Users\Siphokuhle Khanyile\Desktop\CCGMailerService\CCGMailerService\obj\Debug\CCGMailerService.csproj.CopyComplete
+C:\Users\Siphokuhle Khanyile\Desktop\CCGMailerService\CCGMailerService\obj\Debug\CCGMailerService.exe
+C:\Users\Siphokuhle Khanyile\Desktop\CCGMailerService\CCGMailerService\obj\Debug\CCGMailerService.pdb
+C:\Users\Siphokuhle Khanyile\Desktop\CCGMailerService\CCGMailerService\bin\Debug\Topshelf.dll
+C:\Users\Siphokuhle Khanyile\Desktop\CCGMailerService\CCGMailerService\bin\Debug\Topshelf.xml
+C:\Users\Siphokuhle Khanyile\Desktop\CCGMailerService\CCGMailerService\bin\Debug\CCGMailerService.exe.manifest
+C:\Users\Siphokuhle Khanyile\Desktop\CCGMailerService\CCGMailerService\bin\Debug\CCGMailerService.application
+C:\Users\Siphokuhle Khanyile\Desktop\CCGMailerService\CCGMailerService\obj\Debug\CCGMailerService.exe.manifest
+C:\Users\Siphokuhle Khanyile\Desktop\CCGMailerService\CCGMailerService\obj\Debug\CCGMailerService.application
+C:\Users\Siphokuhle Khanyile\Desktop\CCGMailerService\CCGMailerService\bin\Debug\Telerik.Reporting.dll
+C:\Users\Siphokuhle Khanyile\Desktop\CCGMailerService\CCGMailerService\bin\Debug\Telerik.Reporting.OpenXmlRendering.2.7.2.dll
+C:\Users\Siphokuhle Khanyile\Desktop\CCGMailerService\CCGMailerService\bin\Debug\Telerik.Reporting.XpsRendering.dll
+C:\Users\Siphokuhle Khanyile\Desktop\CCGMailerService\CCGMailerService\obj\Debug\CCGMailerService.csprojAssemblyReference.cache
+C:\Users\Siphokuhle Khanyile\Desktop\CCGMailerService\Mailer-Service\CCGMailerService\bin\Debug\CCGMailerService.exe.config
+C:\Users\Siphokuhle Khanyile\Desktop\CCGMailerService\Mailer-Service\CCGMailerService\bin\Debug\CCGMailerService.exe.manifest
+C:\Users\Siphokuhle Khanyile\Desktop\CCGMailerService\Mailer-Service\CCGMailerService\bin\Debug\CCGMailerService.application
+C:\Users\Siphokuhle Khanyile\Desktop\CCGMailerService\Mailer-Service\CCGMailerService\bin\Debug\CCGMailerService.exe
+C:\Users\Siphokuhle Khanyile\Desktop\CCGMailerService\Mailer-Service\CCGMailerService\bin\Debug\CCGMailerService.pdb
+C:\Users\Siphokuhle Khanyile\Desktop\CCGMailerService\Mailer-Service\CCGMailerService\bin\Debug\EntityFramework.dll
+C:\Users\Siphokuhle Khanyile\Desktop\CCGMailerService\Mailer-Service\CCGMailerService\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Siphokuhle Khanyile\Desktop\CCGMailerService\Mailer-Service\CCGMailerService\bin\Debug\Telerik.Reporting.dll
+C:\Users\Siphokuhle Khanyile\Desktop\CCGMailerService\Mailer-Service\CCGMailerService\bin\Debug\Telerik.Reporting.OpenXmlRendering.2.7.2.dll
+C:\Users\Siphokuhle Khanyile\Desktop\CCGMailerService\Mailer-Service\CCGMailerService\bin\Debug\Telerik.Reporting.XpsRendering.dll
+C:\Users\Siphokuhle Khanyile\Desktop\CCGMailerService\Mailer-Service\CCGMailerService\bin\Debug\Topshelf.dll
+C:\Users\Siphokuhle Khanyile\Desktop\CCGMailerService\Mailer-Service\CCGMailerService\bin\Debug\EntityFramework.xml
+C:\Users\Siphokuhle Khanyile\Desktop\CCGMailerService\Mailer-Service\CCGMailerService\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Siphokuhle Khanyile\Desktop\CCGMailerService\Mailer-Service\CCGMailerService\bin\Debug\Topshelf.xml
+C:\Users\Siphokuhle Khanyile\Desktop\CCGMailerService\Mailer-Service\CCGMailerService\obj\Debug\CCGMailerService.csprojAssemblyReference.cache
+C:\Users\Siphokuhle Khanyile\Desktop\CCGMailerService\Mailer-Service\CCGMailerService\obj\Debug\CCGMailerService.csproj.CoreCompileInputs.cache
+C:\Users\Siphokuhle Khanyile\Desktop\CCGMailerService\Mailer-Service\CCGMailerService\obj\Debug\CCGMailerService.exe.manifest
+C:\Users\Siphokuhle Khanyile\Desktop\CCGMailerService\Mailer-Service\CCGMailerService\obj\Debug\CCGMailerService.application
+C:\Users\Siphokuhle Khanyile\Desktop\CCGMailerService\Mailer-Service\CCGMailerService\obj\Debug\CCGMailerService.csproj.CopyComplete
+C:\Users\Siphokuhle Khanyile\Desktop\CCGMailerService\Mailer-Service\CCGMailerService\obj\Debug\CCGMailerService.exe
+C:\Users\Siphokuhle Khanyile\Desktop\CCGMailerService\Mailer-Service\CCGMailerService\obj\Debug\CCGMailerService.pdb
+E:\GitHub\Mailer-Service\CCGMailerService\obj\Debug\CCGMailerService.exe
+E:\GitHub\Mailer-Service\CCGMailerService\obj\Debug\CCGMailerService.pdb
+E:\GitHub\Mailer-Service\CCGMailerService\bin\Debug\CCGMailerService.exe.config
+E:\GitHub\Mailer-Service\CCGMailerService\bin\Debug\CCGMailerService.exe
+E:\GitHub\Mailer-Service\CCGMailerService\bin\Debug\CCGMailerService.pdb
+E:\GitHub\Mailer-Service\CCGMailerService\bin\Debug\EntityFramework.dll
+E:\GitHub\Mailer-Service\CCGMailerService\bin\Debug\EntityFramework.SqlServer.dll
+E:\GitHub\Mailer-Service\CCGMailerService\bin\Debug\System.ComponentModel.Annotations.dll
+E:\GitHub\Mailer-Service\CCGMailerService\bin\Debug\Telerik.Reporting.dll
+E:\GitHub\Mailer-Service\CCGMailerService\bin\Debug\Telerik.Reporting.OpenXmlRendering.2.7.2.dll
+E:\GitHub\Mailer-Service\CCGMailerService\bin\Debug\Telerik.Reporting.XpsRendering.dll
+E:\GitHub\Mailer-Service\CCGMailerService\bin\Debug\Topshelf.dll
+E:\GitHub\Mailer-Service\CCGMailerService\bin\Debug\EntityFramework.xml
+E:\GitHub\Mailer-Service\CCGMailerService\bin\Debug\EntityFramework.SqlServer.xml
+E:\GitHub\Mailer-Service\CCGMailerService\bin\Debug\Topshelf.xml
+E:\GitHub\Mailer-Service\CCGMailerService\obj\Debug\CCGMailerService.csproj.CoreCompileInputs.cache
+E:\GitHub\Mailer-Service\CCGMailerService\obj\Debug\CCGMailerService.csproj.CopyComplete
+E:\Github\Mailer-Service\CCGMailerService\obj\Debug\CCGMailerService.csprojAssemblyReference.cache
+E:\Github\Workflow Mailer\Mailer-Service\CCGMailerService\obj\Debug\CCGMailerService.csprojAssemblyReference.cache
+E:\Github\Workflow Mailer\Mailer-Service\CCGMailerService\obj\Debug\CCGMailerService.csproj.CoreCompileInputs.cache
+E:\Github\Workflow Mailer\Mailer-Service\CCGMailerService\obj\Debug\CCGMailerService.exe
+E:\Github\Workflow Mailer\Mailer-Service\CCGMailerService\obj\Debug\CCGMailerService.pdb
+E:\Github\Workflow Mailer\Mailer-Service\CCGMailerService\bin\Debug\CCGMailerService.exe.config
+E:\Github\Workflow Mailer\Mailer-Service\CCGMailerService\bin\Debug\CCGMailerService.exe
+E:\Github\Workflow Mailer\Mailer-Service\CCGMailerService\bin\Debug\CCGMailerService.pdb
+E:\Github\Workflow Mailer\Mailer-Service\CCGMailerService\bin\Debug\EntityFramework.dll
+E:\Github\Workflow Mailer\Mailer-Service\CCGMailerService\bin\Debug\EntityFramework.SqlServer.dll
+E:\Github\Workflow Mailer\Mailer-Service\CCGMailerService\bin\Debug\System.ComponentModel.Annotations.dll
+E:\Github\Workflow Mailer\Mailer-Service\CCGMailerService\bin\Debug\Telerik.Reporting.dll
+E:\Github\Workflow Mailer\Mailer-Service\CCGMailerService\bin\Debug\Telerik.Reporting.OpenXmlRendering.2.7.2.dll
+E:\Github\Workflow Mailer\Mailer-Service\CCGMailerService\bin\Debug\Telerik.Reporting.XpsRendering.dll
+E:\Github\Workflow Mailer\Mailer-Service\CCGMailerService\bin\Debug\Topshelf.dll
+E:\Github\Workflow Mailer\Mailer-Service\CCGMailerService\bin\Debug\EntityFramework.xml
+E:\Github\Workflow Mailer\Mailer-Service\CCGMailerService\bin\Debug\EntityFramework.SqlServer.xml
+E:\Github\Workflow Mailer\Mailer-Service\CCGMailerService\bin\Debug\Topshelf.xml
+E:\Github\Workflow Mailer\Mailer-Service\CCGMailerService\obj\Debug\CCGMailerService.csproj.CopyComplete
