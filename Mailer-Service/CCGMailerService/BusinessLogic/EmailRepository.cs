@@ -139,6 +139,7 @@ namespace CCGMailerService.BusinessLogic
                         emailLog.cEmailTo = emailTo;
                         emailLog.cEmailBody = emailBody;
                         emailLog.cOutline = cOutline;
+                        //emailLog.cModuleGUID = 
 
                         db.C_ccg_WE_tblEmailLog.Add(emailLog);
                         db.SaveChanges();
@@ -151,7 +152,7 @@ namespace CCGMailerService.BusinessLogic
             }
             catch (Exception ex)
             {
-                response.Status = ResponseStatus.Failure;
+                response.Status = ResponseStatus.Exception;
                 response.StatusDescription = "Mail could not be saved.";
             }
             return response;
