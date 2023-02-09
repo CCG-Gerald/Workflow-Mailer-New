@@ -76,3 +76,21 @@ E:\Github\Workflow Mailer\Mailer-Service\CCGMailerService\bin\Debug\EntityFramew
 E:\Github\Workflow Mailer\Mailer-Service\CCGMailerService\bin\Debug\EntityFramework.SqlServer.xml
 E:\Github\Workflow Mailer\Mailer-Service\CCGMailerService\bin\Debug\Topshelf.xml
 E:\Github\Workflow Mailer\Mailer-Service\CCGMailerService\obj\Debug\CCGMailerService.csproj.CopyComplete
+E:\Github\Workflow-Mailer-New\Mailer-Service\CCGMailerService\bin\Debug\CCGMailerService.exe.config
+E:\Github\Workflow-Mailer-New\Mailer-Service\CCGMailerService\bin\Debug\CCGMailerService.exe
+E:\Github\Workflow-Mailer-New\Mailer-Service\CCGMailerService\bin\Debug\CCGMailerService.pdb
+E:\Github\Workflow-Mailer-New\Mailer-Service\CCGMailerService\bin\Debug\EntityFramework.dll
+E:\Github\Workflow-Mailer-New\Mailer-Service\CCGMailerService\bin\Debug\EntityFramework.SqlServer.dll
+E:\Github\Workflow-Mailer-New\Mailer-Service\CCGMailerService\bin\Debug\System.ComponentModel.Annotations.dll
+E:\Github\Workflow-Mailer-New\Mailer-Service\CCGMailerService\bin\Debug\Telerik.Reporting.dll
+E:\Github\Workflow-Mailer-New\Mailer-Service\CCGMailerService\bin\Debug\Telerik.Reporting.OpenXmlRendering.2.7.2.dll
+E:\Github\Workflow-Mailer-New\Mailer-Service\CCGMailerService\bin\Debug\Telerik.Reporting.XpsRendering.dll
+E:\Github\Workflow-Mailer-New\Mailer-Service\CCGMailerService\bin\Debug\Topshelf.dll
+E:\Github\Workflow-Mailer-New\Mailer-Service\CCGMailerService\bin\Debug\EntityFramework.xml
+E:\Github\Workflow-Mailer-New\Mailer-Service\CCGMailerService\bin\Debug\EntityFramework.SqlServer.xml
+E:\Github\Workflow-Mailer-New\Mailer-Service\CCGMailerService\bin\Debug\Topshelf.xml
+E:\Github\Workflow-Mailer-New\Mailer-Service\CCGMailerService\obj\Debug\CCGMailerService.csprojAssemblyReference.cache
+E:\Github\Workflow-Mailer-New\Mailer-Service\CCGMailerService\obj\Debug\CCGMailerService.csproj.CoreCompileInputs.cache
+E:\Github\Workflow-Mailer-New\Mailer-Service\CCGMailerService\obj\Debug\CCGMailerService.csproj.CopyComplete
+E:\Github\Workflow-Mailer-New\Mailer-Service\CCGMailerService\obj\Debug\CCGMailerService.exe
+E:\Github\Workflow-Mailer-New\Mailer-Service\CCGMailerService\obj\Debug\CCGMailerService.pdb

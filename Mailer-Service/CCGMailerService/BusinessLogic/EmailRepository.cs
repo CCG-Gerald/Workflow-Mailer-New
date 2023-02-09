@@ -33,39 +33,44 @@ namespace CCGMailerService.BusinessLogic
 
             try
             {
-                SmtpSection smtpSection = (SmtpSection)ConfigurationManager.GetSection("system.net/mailSettings/smtp");
-                using (MailMessage mm = new MailMessage())
+                using (DatabaseContext db = new DatabaseContext())
                 {
-                    mm.From = new MailAddress(smtpSection.From, emailOutline);
-                    mm.To.Add(emailTo);
-                    mm.Subject = emailSubject;
-                    mm.Body = emailBody;
-                    mm.IsBodyHtml = true;
-                    //mm.Bcc.Add(new MailAddress(smtpSection.From));
+                    db.Database.Connection.ConnectionString = connectionString;
 
-                    if (emailCC != null && emailCC != "")
-                    {
-                        mm.CC.Add(new MailAddress(emailCC));
-                    }
+                    C_ccg_WE_tblEmailSettings emailSettings = db.C_ccg_WE_tblEmailSettings.First();
 
-                    if (emailBCC != null && emailBCC != "")
-                    {
-                        mm.Bcc.Add(new MailAddress(emailBCC));
+                    SmtpSection smtpSection = (SmtpSection)ConfigurationManager.GetSection("system.net/mailSettings/smtp");
 
-                    }
-                    if (iRFQID != 0)
+                    using (MailMessage mm = new MailMessage())
                     {
-                        mm.ReplyToList.Add(new MailAddress(emailReplyTo));
-                    }
-                    if (emailAttachment != null && emailAttachment != "")
-                    {
-                        mm.Attachments.Add(new Attachment(emailAttachment));
-                    }
-                    if (iRFQID != 0)
-                    {
-                        using (DatabaseContext db = new DatabaseContext())
+                        mm.From = new MailAddress(emailSettings.cEmailFrom, emailOutline);
+                        mm.To.Add(emailTo);
+                        mm.Subject = emailSubject;
+                        mm.Body = emailBody;
+                        mm.IsBodyHtml = true;
+                        //mm.Bcc.Add(new MailAddress(smtpSection.From));
+
+                        if (emailCC != null && emailCC != "")
                         {
-                            db.Database.Connection.ConnectionString = connectionString;
+                            mm.CC.Add(new MailAddress(emailCC));
+                        }
+
+                        if (emailBCC != null && emailBCC != "")
+                        {
+                            mm.Bcc.Add(new MailAddress(emailBCC));
+
+                        }
+                        if (iRFQID != 0)
+                        {
+                            mm.ReplyToList.Add(new MailAddress(emailReplyTo));
+                        }
+                        if (emailAttachment != null && emailAttachment != "")
+                        {
+                            mm.Attachments.Add(new Attachment(emailAttachment));
+                        }
+                        if (iRFQID != 0)
+                        {
+
 
                             C_ccg_EP_vwRFQ rfq = db.C_ccg_EP_vwRFQ.Find(iRFQID);
 
@@ -83,28 +88,29 @@ namespace CCGMailerService.BusinessLogic
                                 mm.Attachments.Add(attachment);
                                 //stream.Dispose();
                             }
+
+
                         }
 
+                        SmtpClient smtp = new SmtpClient();
+                        smtp.Host = emailSettings.cSMTPServer;
+                        smtp.EnableSsl = true;
+
+                        ServicePointManager.ServerCertificateValidationCallback = delegate (object s, X509Certificate certificate, X509Chain chain, SslPolicyErrors sslPolicyErrors) { return true; };
+
+                        NetworkCredential networkCred = new NetworkCredential(emailSettings.cUserName, emailSettings.cPassword, smtpSection.Network.ClientDomain);
+                        smtp.UseDefaultCredentials = true;
+                        smtp.Credentials = networkCred;
+
+                        smtp.Port = emailSettings.iPortNumber;
+                        smtp.Send(mm);
+
+                        mm.Dispose();
+                        smtp.Dispose();
+
+                        response.Status = ResponseStatus.Success;
+                        response.StatusDescription = "Mail to " + emailTo + " sent successfully";
                     }
-
-                    SmtpClient smtp = new SmtpClient();
-                    smtp.Host = smtpSection.Network.Host;
-                    smtp.EnableSsl = smtpSection.Network.EnableSsl;
-
-                    ServicePointManager.ServerCertificateValidationCallback = delegate (object s, X509Certificate certificate, X509Chain chain, SslPolicyErrors sslPolicyErrors) { return true; };
-
-                    NetworkCredential networkCred = new NetworkCredential(smtpSection.Network.UserName, smtpSection.Network.Password, smtpSection.Network.ClientDomain);
-                    smtp.UseDefaultCredentials = true;
-                    smtp.Credentials = networkCred;
-
-                    smtp.Port = smtpSection.Network.Port;
-                    smtp.Send(mm);
-
-                    mm.Dispose();
-                    smtp.Dispose();
-
-                    response.Status = ResponseStatus.Success;
-                    response.StatusDescription = "Mail to " + emailTo + " sent successfully";
                 }
             }
 

@@ -40,7 +40,7 @@ namespace CCGMailerService.BusinessLogic
                         emailRepository.emailBCC = emailLog.cEmailBCC;
                         emailRepository.connectionString = connectionString;
 
-                        if (emailLog.iRFQID != null)
+                        if (emailLog.iRFQID != null && emailLog.iRFQID != 0)
                         {
                             ReportsRepository reportsRepository = new ReportsRepository();
 
@@ -107,7 +107,7 @@ namespace CCGMailerService.BusinessLogic
                 emailLog.dMailDate = DateTime.Now;
                 db.SaveChanges();
 
-                if (emailLog.iRFQID != null)
+                if (emailLog.iRFQID != null && emailLog.iRFQID != 0)
                 {
                     C_ccg_EP_tblRFQ rfq = db.C_ccg_EP_tblRFQ.Find(emailLog.iRFQID);
                     rfq.bIsEmailSent = true;

@@ -24,7 +24,7 @@ namespace CCGMailerService
 
                 x.SetServiceName("CCGMailerService");
                 x.SetDisplayName("CCG Mailer Service");
-                x.SetDescription("This is an emailing Service used to email from the E Procurement Module.");
+                x.SetDescription("This is an emailing Service used to send emails from various CCG Systems Modules.");
             });
 
             int exitCodeValue = (int)Convert.ChangeType(exitCode, exitCode.GetTypeCode());
