@@ -85,7 +85,7 @@ namespace CCGMailerService.BusinessLogic
                         }
 
                         string[] lines = new string[] { response.StatusDescription + " " + DateTime.Now.ToString() };
-                        File.AppendAllLines(@"C:\inetpub\wwwroot\CCG MailerAPI\MailerLog.txt", lines);
+                        File.AppendAllLines(@"C:\inetpub\wwwroot\CCG WorkflowMailerAPI\MailerLog.txt", lines);
                     }
                 }
             }

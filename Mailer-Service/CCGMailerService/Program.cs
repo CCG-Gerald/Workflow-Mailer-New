@@ -22,8 +22,8 @@ namespace CCGMailerService
 
                 x.RunAsLocalSystem();
 
-                x.SetServiceName("CCGMailerService");
-                x.SetDisplayName("CCG Mailer Service");
+                x.SetServiceName("CCGWorkflowMailerService");
+                x.SetDisplayName("CCG WorkflowMailer Service");
                 x.SetDescription("This is an emailing Service used to send emails from various CCG Systems Modules.");
             });
 
